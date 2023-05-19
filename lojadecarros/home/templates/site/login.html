@@ -1,0 +1,58 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans:ital,wght@0,300;0,600;0,800;1,800&family=Secular+One&display=swap" rel="stylesheet">
+    <title>Car Gear</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="{% static 'img/logocerta.png' %}" alt="">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="{% url 'pag_inicial' %}">Home</a>
+                </li>
+                <li>
+                    <a href="{% url 'pag_login' %}">Login</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="informaçõeslogin">
+        <div class="balão">
+            <div class="cabeçario">
+                
+            </div>
+            <hr>
+            <form action="{% url 'pag_login' %}" method="POST">{% csrf_token %}
+                Usuario:
+                <input type="text" placeholder="Digite seu Usuario" name="username">
+                Senha:
+                <input type="password" placeholder="Digite sua Senha" name="senha">
+                <br>
+                <input type="submit" value="login">
+            </form>
+            <hr>
+            
+            <h3>Caso não tenha cadastro clique no botão abaixo para continuar sua experiencia em nosso site.</h3>
+        <a href="{% url 'pag_cadastro' %}">CADASTRAR</a>
+        </div>
+    </div>
+    
+    <footer class="footerlogin">
+        Desenvolvedores:Rhennan Augusto, Cauã Cristian. 
+    </footer>
+    
+
+</body>
+</html>

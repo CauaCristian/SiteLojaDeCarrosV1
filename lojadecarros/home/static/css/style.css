@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Secular One', sans-serif;
+}
+header{
+    background-color: #002e25;
+    width: 86%;
+    height: 80px;
+    position: fixed;
+    margin-left: 7%;
+}
+footer{
+    background-color: #004c3f;
+    width: 86%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 70px;
+    font-size: 30px;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 180px;
+}
+.menu{
+    float: right;
+}
+.menu li{
+    display: inline;
+    margin-right: 30px;
+    
+}
+.menu a{
+    text-decoration: none;
+    
+}
+a:visited{
+    color: white;
+}
+.informações{
+    background-color: #004c3f;
+    width: 86%;
+    height: 487px;
+    margin: auto;
+    text-align: justify;
+}
+.informações img{
+    width: 400px;
+}
+.arte{
+    width: 400px;
+    height: 250px;
+    float: right;
+    margin-right: 40px;
+    margin-top: 140px;
+}
+.texto{
+    width: 600px;
+    height: 400px;
+    float: left;
+    padding-top: 120px ;
+    padding-left: 40px;
+    color: white;
+}
+button{
+    background-color: #008060;
+    border: none;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: medium;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+a:hover{
+    color: rgb(0, 0, 0);
+}
+.carro{
+    margin: auto;
+    width: 86%;
+}
+.carro img{
+    width: 100%;
+}
+.informaçõeslogin{
+    background-color: #004c3f;
+    width: 86%;
+    height: 1460px;
+    margin: auto;
+    text-align: justify;
+    box-sizing: border-box;
+}
+.informaçõeslogin img{
+    width: 100%;
+    
+}
+.balão{
+    width: 600px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin-top: 320px;
+    margin-left: 27%;
+    position: absolute;
+    border-radius: 40px;
+    
+    
+}
+.balão a{
+    margin-left: 20px;
+}
+.cabeçario{
+    width: 100%;
+    height: 60px;
+    background-color: #002e25;
+    border-radius: 40px 40px 0px 0px;
+    position: relative;
+    text-align: center;
+    
+}
+form{
+    text-align: justify;
+    margin-left: 33%;
+    
+    color: white;
+}
+.pedidos{
+    text-align: justify;
+    margin-left: 23%;
+    
+    color: white;
+}
+.pedidos select{
+    margin-left: 16%;
+}
+.pedidos input{
+    margin-left: 16%;
+}
+input{
+    display: block;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #008060;
+    border: none;
+    width: 190px;
+    font-size: 20px;
+}
+select{
+    display: block;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #008060;
+    border: none;
+    width: 190px;
+    font-size: 20px;
+}
+option{
+    display: block;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #008060;
+    border: none;
+    width: 190px;
+    font-size: 20px;
+}
+.footerlogin{
+    background-color: #002e25;
+    width: 86%;
+    height: 150px;
+    margin: auto;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 70px;
+    font-size: 30px;
+}
+input:hover{
+    color: white;
+    background-color: black;
+}
+.botão{
+    width: 206px;
+    margin-bottom: 20px;
+    
+}
+hr{
+    border-color: #002e25;
+}
+.balão h3{
+    color: white;
+    margin: 20px;
+
+}
+.balão button{
+    margin-left: 40%;
+}
+button a{
+    text-decoration: none;
+}
+button a:hover{
+    color: white;
+}
+.balãoerroouacerto{
+    width: 600px;
+    height: 450px;
+    background-color: rgba(0, 0, 0, 0.123);
+    margin-top: 320px;
+    margin-left: 27%;
+    position: absolute;
+    border-radius: 40px;
+    
+}
+.balãoerroouacerto h1 {
+    margin-left: 10%;
+}
+.balãoerroouacerto a {
+    margin-left: 42%;
+}
+@media screen and (max-width:1256px){
+    .arte{
+        display:none;
+    }
+}
+.balaozin{
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.479);
+    margin-top: 15px;
+    margin-left: 25px;
+    
+}
+.cabeçarin{
+    width: 400px;
+    height: 60px;
+    border-radius: 20px, 20px,0px,0px;
+    background-color: #008060;
+    
+}
+.cabeçarin h1{
+    margin-left: 26%;
+}
+button{
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.texto button{
+    margin: 0;
+}
+.finalizaçao{
+    padding-top: 400px;
+    text-align: center;
+}
+.finalizaçao p{
+    font-size: 50px;
+}
+
+
